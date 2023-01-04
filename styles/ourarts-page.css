@@ -1,0 +1,20 @@
+.ourarts-photos {
+  margin: 30px;
+}
+
+.arts-title {
+  color: rgb(0, 158, 172);
+  font-weight: bold;
+  border-bottom: 2px solid rgb(0, 158, 172);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-shadow: 3px 4px 19px;
+}
+
+.photos-box {
+  background-color: rgba(238, 238, 238, 0.1);
+  border-radius: 20px;
+}
+
+.photo-haircut {
+  margin: 20px;
+}

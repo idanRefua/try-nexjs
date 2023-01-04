@@ -1,0 +1,17 @@
+.card {
+  margin: 10px;
+  padding: 0;
+  background-color: rgb(227, 227, 227);
+  border: rgb(0, 158, 172) 3.5px solid;
+}
+.card:hover {
+  box-shadow: 7px 3px 5px rgb(253, 253, 211);
+  transform: scale(1.07);
+}
+.product-title {
+  color: rgb(0, 158, 172);
+  font-weight: bold;
+  border-bottom: 2px solid rgb(0, 158, 172);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-shadow: 3px 4px 19px;
+}

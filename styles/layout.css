@@ -1,0 +1,78 @@
+.header-layout {
+  background: rgb(66, 66, 66);
+  background: linear-gradient(
+    100deg,
+    rgb(105, 105, 105, 0.6) 25%,
+    rgb(96, 96, 96, 0.4) 90%,
+    rgb(96, 96, 96, 0.4) 70%
+  );
+  color: rgb(204, 16, 201);
+  font-weight: bold;
+  text-align: center;
+}
+
+.shop-title {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.header-layout .nav-item .nav-link {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.3em;
+  margin: 5px;
+  margin-top: 40px;
+}
+.header-layout .nav-item .nav-link:hover {
+  background-color: rgb(211, 209, 209);
+  border-radius: 15px;
+  border-bottom: black 2px solid;
+}
+
+.idan-r-pic {
+  border-radius: 30px;
+}
+
+.page-layout {
+  background-image: url("/images/barber-gb66f6b42f_1920.jpg");
+  min-height: 100vh;
+  width: 100%;
+}
+
+.footer {
+  height: 10rem;
+  bottom: 0;
+  background: rgb(253, 244, 255);
+  background: linear-gradient(
+    344deg,
+    rgba(253, 244, 255, 1) 0%,
+    rgba(235, 244, 255, 1) 100%
+  );
+  text-align: center;
+}
+
+.bi {
+  margin: 10px;
+}
+
+.col-sm-10 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+@media (max-width: 990px) {
+  .header-layout {
+    justify-content: left !important;
+    display: block !important;
+  }
+
+  .idan-r-pic {
+    display: none;
+  }
+  .header-layout .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+  .header-layout .nav-item .nav-link {
+    margin-top: 15px;
+  }
+}

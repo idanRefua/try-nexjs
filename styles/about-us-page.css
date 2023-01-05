@@ -26,3 +26,30 @@
 .my-self {
   border-right: black 1.3px solid;
 }
+
+@media (max-width: 1400px) {
+  .location-on-map {
+    width: 330px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .location-on-map {
+    width: 200px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 575px) {
+  .location-on-map {
+    width: 310px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 575px) {
+  .my-self {
+    border-right: 0;
+  }
+}

@@ -98,6 +98,7 @@ function About() {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
+              className="location-on-map"
             ></iframe>
 
             <p></p>
